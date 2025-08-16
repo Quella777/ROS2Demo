@@ -1,0 +1,128 @@
+[0.000000] (-) TimerEvent: {}
+[0.000680] (status_subscription) JobQueued: {'identifier': 'status_subscription', 'dependencies': OrderedDict()}
+[0.001321] (status_subscription) JobStarted: {'identifier': 'status_subscription'}
+[0.009258] (status_subscription) JobProgress: {'identifier': 'status_subscription', 'progress': 'cmake'}
+[0.010168] (status_subscription) JobProgress: {'identifier': 'status_subscription', 'progress': 'build'}
+[0.010842] (status_subscription) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/quella/ROS2Demo/topic/topic_practice/src/status_subscription/build/status_subscription', '--', '-j16', '-l16'], 'cwd': '/home/quella/ROS2Demo/topic/topic_practice/src/status_subscription/build/status_subscription', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'quella'), ('SSH_CLIENT', '192.168.231.1 53481 22'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/quella/.vscode-server/cli/servers/Stable-488a1f239235055e34e673291fb8d8c810886f81/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/quella/.vscode-server/cli/servers/Stable-488a1f239235055e34e673291fb8d8c810886f81/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/quella'), ('OLDPWD', '/home/quella'), ('TERM_PROGRAM_VERSION', '1.102.3'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-d5f53558-61d7-463b-9d1a-f5d349e3083a.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/quella/.vscode-server/cli/servers/Stable-488a1f239235055e34e673291fb8d8c810886f81/server/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/quella/.vscode-server/cli/servers/Stable-488a1f239235055e34e673291fb8d8c810886f81/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'quella'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '4'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/quella/.vscode-server/cli/servers/Stable-488a1f239235055e34e673291fb8d8c810886f81/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin;c:\\Users\\36331\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand'), ('PAPERSIZE', 'a4'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'zh_CN.UTF-8'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-812dff5387.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/quella/ROS2Demo/topic/topic_practice/src/status_subscription/build/status_subscription'), ('SSH_CONNECTION', '192.168.231.1 53481 192.168.231.129 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.058778] (status_subscription) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target status_sub\x1b[0m\n'}
+[0.082543] (status_subscription) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/status_sub.dir/src/status_sub.cpp.o\x1b[0m\n'}
+[0.100411] (-) TimerEvent: {}
+[0.200840] (-) TimerEvent: {}
+[0.301297] (-) TimerEvent: {}
+[0.402131] (-) TimerEvent: {}
+[0.502708] (-) TimerEvent: {}
+[0.603405] (-) TimerEvent: {}
+[0.704203] (-) TimerEvent: {}
+[0.804908] (-) TimerEvent: {}
+[0.905610] (-) TimerEvent: {}
+[1.006312] (-) TimerEvent: {}
+[1.106849] (-) TimerEvent: {}
+[1.207296] (-) TimerEvent: {}
+[1.307809] (-) TimerEvent: {}
+[1.408711] (-) TimerEvent: {}
+[1.509517] (-) TimerEvent: {}
+[1.610339] (-) TimerEvent: {}
+[1.710932] (-) TimerEvent: {}
+[1.811856] (-) TimerEvent: {}
+[1.912480] (-) TimerEvent: {}
+[2.013385] (-) TimerEvent: {}
+[2.114546] (-) TimerEvent: {}
+[2.215508] (-) TimerEvent: {}
+[2.316692] (-) TimerEvent: {}
+[2.417542] (-) TimerEvent: {}
+[2.518777] (-) TimerEvent: {}
+[2.619701] (-) TimerEvent: {}
+[2.720484] (-) TimerEvent: {}
+[2.821195] (-) TimerEvent: {}
+[2.921949] (-) TimerEvent: {}
+[3.022843] (-) TimerEvent: {}
+[3.123423] (-) TimerEvent: {}
+[3.223998] (-) TimerEvent: {}
+[3.324436] (-) TimerEvent: {}
+[3.425059] (-) TimerEvent: {}
+[3.525628] (-) TimerEvent: {}
+[3.626347] (-) TimerEvent: {}
+[3.726890] (-) TimerEvent: {}
+[3.828432] (-) TimerEvent: {}
+[3.929248] (-) TimerEvent: {}
+[4.030485] (-) TimerEvent: {}
+[4.130977] (-) TimerEvent: {}
+[4.231446] (-) TimerEvent: {}
+[4.332330] (-) TimerEvent: {}
+[4.433331] (-) TimerEvent: {}
+[4.534128] (-) TimerEvent: {}
+[4.634803] (-) TimerEvent: {}
+[4.735661] (-) TimerEvent: {}
+[4.836541] (-) TimerEvent: {}
+[4.937386] (-) TimerEvent: {}
+[5.038224] (-) TimerEvent: {}
+[5.139476] (-) TimerEvent: {}
+[5.240248] (-) TimerEvent: {}
+[5.341712] (-) TimerEvent: {}
+[5.442384] (-) TimerEvent: {}
+[5.543403] (-) TimerEvent: {}
+[5.644470] (-) TimerEvent: {}
+[5.745953] (-) TimerEvent: {}
+[5.846820] (-) TimerEvent: {}
+[5.947241] (-) TimerEvent: {}
+[6.047961] (-) TimerEvent: {}
+[6.148562] (-) TimerEvent: {}
+[6.249337] (-) TimerEvent: {}
+[6.350202] (-) TimerEvent: {}
+[6.451587] (-) TimerEvent: {}
+[6.552951] (-) TimerEvent: {}
+[6.653564] (-) TimerEvent: {}
+[6.754592] (-) TimerEvent: {}
+[6.855189] (-) TimerEvent: {}
+[6.956428] (-) TimerEvent: {}
+[7.056973] (-) TimerEvent: {}
+[7.157605] (-) TimerEvent: {}
+[7.258751] (-) TimerEvent: {}
+[7.359766] (-) TimerEvent: {}
+[7.460652] (-) TimerEvent: {}
+[7.561640] (-) TimerEvent: {}
+[7.662589] (-) TimerEvent: {}
+[7.763923] (-) TimerEvent: {}
+[7.864388] (-) TimerEvent: {}
+[7.965641] (-) TimerEvent: {}
+[8.066519] (-) TimerEvent: {}
+[8.167218] (-) TimerEvent: {}
+[8.268202] (-) TimerEvent: {}
+[8.368720] (-) TimerEvent: {}
+[8.469576] (-) TimerEvent: {}
+[8.570058] (-) TimerEvent: {}
+[8.633019] (status_subscription) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable status_sub\x1b[0m\n'}
+[8.670338] (-) TimerEvent: {}
+[8.771044] (-) TimerEvent: {}
+[8.871682] (-) TimerEvent: {}
+[8.972532] (-) TimerEvent: {}
+[9.073548] (-) TimerEvent: {}
+[9.174464] (-) TimerEvent: {}
+[9.275445] (-) TimerEvent: {}
+[9.375996] (-) TimerEvent: {}
+[9.476648] (-) TimerEvent: {}
+[9.505453] (status_subscription) StdoutLine: {'line': b'[100%] Built target status_sub\n'}
+[9.520240] (status_subscription) CommandEnded: {'returncode': 0}
+[9.521587] (status_subscription) JobProgress: {'identifier': 'status_subscription', 'progress': 'install'}
+[9.532690] (status_subscription) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/quella/ROS2Demo/topic/topic_practice/src/status_subscription/build/status_subscription'], 'cwd': '/home/quella/ROS2Demo/topic/topic_practice/src/status_subscription/build/status_subscription', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'quella'), ('SSH_CLIENT', '192.168.231.1 53481 22'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/quella/.vscode-server/cli/servers/Stable-488a1f239235055e34e673291fb8d8c810886f81/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/quella/.vscode-server/cli/servers/Stable-488a1f239235055e34e673291fb8d8c810886f81/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/quella'), ('OLDPWD', '/home/quella'), ('TERM_PROGRAM_VERSION', '1.102.3'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-d5f53558-61d7-463b-9d1a-f5d349e3083a.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/quella/.vscode-server/cli/servers/Stable-488a1f239235055e34e673291fb8d8c810886f81/server/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/quella/.vscode-server/cli/servers/Stable-488a1f239235055e34e673291fb8d8c810886f81/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'quella'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '4'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/quella/.vscode-server/cli/servers/Stable-488a1f239235055e34e673291fb8d8c810886f81/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin;c:\\Users\\36331\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand'), ('PAPERSIZE', 'a4'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'zh_CN.UTF-8'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-812dff5387.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/quella/ROS2Demo/topic/topic_practice/src/status_subscription/build/status_subscription'), ('SSH_CONNECTION', '192.168.231.1 53481 192.168.231.129 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[9.542840] (status_subscription) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[9.543329] (status_subscription) StdoutLine: {'line': b'-- Installing: /home/quella/ROS2Demo/topic/topic_practice/src/status_subscription/install/status_subscription/lib/status_subscription/status_sub\n'}
+[9.549380] (status_subscription) StdoutLine: {'line': b'-- Set runtime path of "/home/quella/ROS2Demo/topic/topic_practice/src/status_subscription/install/status_subscription/lib/status_subscription/status_sub" to ""\n'}
+[9.549788] (status_subscription) StdoutLine: {'line': b'-- Up-to-date: /home/quella/ROS2Demo/topic/topic_practice/src/status_subscription/install/status_subscription/share/ament_index/resource_index/package_run_dependencies/status_subscription\n'}
+[9.550245] (status_subscription) StdoutLine: {'line': b'-- Up-to-date: /home/quella/ROS2Demo/topic/topic_practice/src/status_subscription/install/status_subscription/share/ament_index/resource_index/parent_prefix_path/status_subscription\n'}
+[9.550398] (status_subscription) StdoutLine: {'line': b'-- Up-to-date: /home/quella/ROS2Demo/topic/topic_practice/src/status_subscription/install/status_subscription/share/status_subscription/environment/ament_prefix_path.sh\n'}
+[9.550588] (status_subscription) StdoutLine: {'line': b'-- Up-to-date: /home/quella/ROS2Demo/topic/topic_practice/src/status_subscription/install/status_subscription/share/status_subscription/environment/ament_prefix_path.dsv\n'}
+[9.550890] (status_subscription) StdoutLine: {'line': b'-- Up-to-date: /home/quella/ROS2Demo/topic/topic_practice/src/status_subscription/install/status_subscription/share/status_subscription/environment/path.sh\n'}
+[9.550978] (status_subscription) StdoutLine: {'line': b'-- Up-to-date: /home/quella/ROS2Demo/topic/topic_practice/src/status_subscription/install/status_subscription/share/status_subscription/environment/path.dsv\n'}
+[9.551039] (status_subscription) StdoutLine: {'line': b'-- Up-to-date: /home/quella/ROS2Demo/topic/topic_practice/src/status_subscription/install/status_subscription/share/status_subscription/local_setup.bash\n'}
+[9.551091] (status_subscription) StdoutLine: {'line': b'-- Up-to-date: /home/quella/ROS2Demo/topic/topic_practice/src/status_subscription/install/status_subscription/share/status_subscription/local_setup.sh\n'}
+[9.551161] (status_subscription) StdoutLine: {'line': b'-- Up-to-date: /home/quella/ROS2Demo/topic/topic_practice/src/status_subscription/install/status_subscription/share/status_subscription/local_setup.zsh\n'}
+[9.551288] (status_subscription) StdoutLine: {'line': b'-- Up-to-date: /home/quella/ROS2Demo/topic/topic_practice/src/status_subscription/install/status_subscription/share/status_subscription/local_setup.dsv\n'}
+[9.551372] (status_subscription) StdoutLine: {'line': b'-- Installing: /home/quella/ROS2Demo/topic/topic_practice/src/status_subscription/install/status_subscription/share/status_subscription/package.dsv\n'}
+[9.551459] (status_subscription) StdoutLine: {'line': b'-- Up-to-date: /home/quella/ROS2Demo/topic/topic_practice/src/status_subscription/install/status_subscription/share/ament_index/resource_index/packages/status_subscription\n'}
+[9.551527] (status_subscription) StdoutLine: {'line': b'-- Up-to-date: /home/quella/ROS2Demo/topic/topic_practice/src/status_subscription/install/status_subscription/share/status_subscription/cmake/status_subscriptionConfig.cmake\n'}
+[9.551594] (status_subscription) StdoutLine: {'line': b'-- Up-to-date: /home/quella/ROS2Demo/topic/topic_practice/src/status_subscription/install/status_subscription/share/status_subscription/cmake/status_subscriptionConfig-version.cmake\n'}
+[9.551657] (status_subscription) StdoutLine: {'line': b'-- Up-to-date: /home/quella/ROS2Demo/topic/topic_practice/src/status_subscription/install/status_subscription/share/status_subscription/package.xml\n'}
+[9.553425] (status_subscription) CommandEnded: {'returncode': 0}
+[9.573522] (status_subscription) JobEnded: {'identifier': 'status_subscription', 'rc': 0}
+[9.574881] (-) EventReactorShutdown: {}

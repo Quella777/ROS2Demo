@@ -1,0 +1,10 @@
+/home/quella/ROS2Demo/topic/Sport/pose_cpp_pkg/src/pose_cpp_topic/build/pose_cpp_topic/CMakeFiles/uninstall.dir
+/home/quella/ROS2Demo/topic/Sport/pose_cpp_pkg/src/pose_cpp_topic/build/pose_cpp_topic/CMakeFiles/pose_cpp_topic_uninstall.dir
+/home/quella/ROS2Demo/topic/Sport/pose_cpp_pkg/src/pose_cpp_topic/build/pose_cpp_topic/CMakeFiles/turtle_contrl.dir
+/home/quella/ROS2Demo/topic/Sport/pose_cpp_pkg/src/pose_cpp_topic/build/pose_cpp_topic/CMakeFiles/test.dir
+/home/quella/ROS2Demo/topic/Sport/pose_cpp_pkg/src/pose_cpp_topic/build/pose_cpp_topic/CMakeFiles/edit_cache.dir
+/home/quella/ROS2Demo/topic/Sport/pose_cpp_pkg/src/pose_cpp_topic/build/pose_cpp_topic/CMakeFiles/rebuild_cache.dir
+/home/quella/ROS2Demo/topic/Sport/pose_cpp_pkg/src/pose_cpp_topic/build/pose_cpp_topic/CMakeFiles/list_install_components.dir
+/home/quella/ROS2Demo/topic/Sport/pose_cpp_pkg/src/pose_cpp_topic/build/pose_cpp_topic/CMakeFiles/install.dir
+/home/quella/ROS2Demo/topic/Sport/pose_cpp_pkg/src/pose_cpp_topic/build/pose_cpp_topic/CMakeFiles/install/local.dir
+/home/quella/ROS2Demo/topic/Sport/pose_cpp_pkg/src/pose_cpp_topic/build/pose_cpp_topic/CMakeFiles/install/strip.dir

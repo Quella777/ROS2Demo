@@ -1,0 +1,26 @@
+[0.016s] Invoking command in '/home/quella/ROS2Demo/topic/Sport/pose_cpp_pkg/src/pose_cpp_topic/build/pose_cpp_topic': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/quella/ROS2Demo/topic/Sport/pose_cpp_pkg/src/pose_cpp_topic/build/pose_cpp_topic -- -j16 -l16
+[0.061s] [35m[1mConsolidate compiler generated dependencies of target turtle_contrl[0m
+[0.081s] [ 50%] [32mBuilding CXX object CMakeFiles/turtle_contrl.dir/src/turtle_contrl.cpp.o[0m
+[7.964s] [100%] [32m[1mLinking CXX executable turtle_contrl[0m
+[8.344s] [100%] Built target turtle_contrl
+[8.358s] Invoked command in '/home/quella/ROS2Demo/topic/Sport/pose_cpp_pkg/src/pose_cpp_topic/build/pose_cpp_topic' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/quella/ROS2Demo/topic/Sport/pose_cpp_pkg/src/pose_cpp_topic/build/pose_cpp_topic -- -j16 -l16
+[8.371s] Invoking command in '/home/quella/ROS2Demo/topic/Sport/pose_cpp_pkg/src/pose_cpp_topic/build/pose_cpp_topic': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/quella/ROS2Demo/topic/Sport/pose_cpp_pkg/src/pose_cpp_topic/build/pose_cpp_topic
+[8.379s] -- Install configuration: ""
+[8.380s] -- Installing: /home/quella/ROS2Demo/topic/Sport/pose_cpp_pkg/src/pose_cpp_topic/install/pose_cpp_topic/lib/pose_cpp_topic/turtle_contrl
+[8.384s] -- Set runtime path of "/home/quella/ROS2Demo/topic/Sport/pose_cpp_pkg/src/pose_cpp_topic/install/pose_cpp_topic/lib/pose_cpp_topic/turtle_contrl" to ""
+[8.384s] -- Up-to-date: /home/quella/ROS2Demo/topic/Sport/pose_cpp_pkg/src/pose_cpp_topic/install/pose_cpp_topic/share/ament_index/resource_index/package_run_dependencies/pose_cpp_topic
+[8.385s] -- Up-to-date: /home/quella/ROS2Demo/topic/Sport/pose_cpp_pkg/src/pose_cpp_topic/install/pose_cpp_topic/share/ament_index/resource_index/parent_prefix_path/pose_cpp_topic
+[8.385s] -- Up-to-date: /home/quella/ROS2Demo/topic/Sport/pose_cpp_pkg/src/pose_cpp_topic/install/pose_cpp_topic/share/pose_cpp_topic/environment/ament_prefix_path.sh
+[8.385s] -- Up-to-date: /home/quella/ROS2Demo/topic/Sport/pose_cpp_pkg/src/pose_cpp_topic/install/pose_cpp_topic/share/pose_cpp_topic/environment/ament_prefix_path.dsv
+[8.385s] -- Up-to-date: /home/quella/ROS2Demo/topic/Sport/pose_cpp_pkg/src/pose_cpp_topic/install/pose_cpp_topic/share/pose_cpp_topic/environment/path.sh
+[8.385s] -- Up-to-date: /home/quella/ROS2Demo/topic/Sport/pose_cpp_pkg/src/pose_cpp_topic/install/pose_cpp_topic/share/pose_cpp_topic/environment/path.dsv
+[8.385s] -- Up-to-date: /home/quella/ROS2Demo/topic/Sport/pose_cpp_pkg/src/pose_cpp_topic/install/pose_cpp_topic/share/pose_cpp_topic/local_setup.bash
+[8.385s] -- Up-to-date: /home/quella/ROS2Demo/topic/Sport/pose_cpp_pkg/src/pose_cpp_topic/install/pose_cpp_topic/share/pose_cpp_topic/local_setup.sh
+[8.385s] -- Up-to-date: /home/quella/ROS2Demo/topic/Sport/pose_cpp_pkg/src/pose_cpp_topic/install/pose_cpp_topic/share/pose_cpp_topic/local_setup.zsh
+[8.385s] -- Up-to-date: /home/quella/ROS2Demo/topic/Sport/pose_cpp_pkg/src/pose_cpp_topic/install/pose_cpp_topic/share/pose_cpp_topic/local_setup.dsv
+[8.385s] -- Installing: /home/quella/ROS2Demo/topic/Sport/pose_cpp_pkg/src/pose_cpp_topic/install/pose_cpp_topic/share/pose_cpp_topic/package.dsv
+[8.385s] -- Up-to-date: /home/quella/ROS2Demo/topic/Sport/pose_cpp_pkg/src/pose_cpp_topic/install/pose_cpp_topic/share/ament_index/resource_index/packages/pose_cpp_topic
+[8.385s] -- Up-to-date: /home/quella/ROS2Demo/topic/Sport/pose_cpp_pkg/src/pose_cpp_topic/install/pose_cpp_topic/share/pose_cpp_topic/cmake/pose_cpp_topicConfig.cmake
+[8.386s] -- Up-to-date: /home/quella/ROS2Demo/topic/Sport/pose_cpp_pkg/src/pose_cpp_topic/install/pose_cpp_topic/share/pose_cpp_topic/cmake/pose_cpp_topicConfig-version.cmake
+[8.386s] -- Up-to-date: /home/quella/ROS2Demo/topic/Sport/pose_cpp_pkg/src/pose_cpp_topic/install/pose_cpp_topic/share/pose_cpp_topic/package.xml
+[8.387s] Invoked command in '/home/quella/ROS2Demo/topic/Sport/pose_cpp_pkg/src/pose_cpp_topic/build/pose_cpp_topic' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/quella/ROS2Demo/topic/Sport/pose_cpp_pkg/src/pose_cpp_topic/build/pose_cpp_topic

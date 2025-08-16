@@ -1,0 +1,105 @@
+[0.087s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.087s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7ef2ffe32d70>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7ef2ffe32800>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7ef2ffe32800>>)
+[0.203s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.203s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.203s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.203s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.204s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.204s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.204s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/quella/ROS2Demo/object/object_pkg'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.215s] DEBUG:colcon.colcon_core.package_identification:Package '.' with type 'ros.ament_cmake' and name 'object_pkg'
+[0.215s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.215s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.215s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.215s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.215s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.230s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.231s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.232s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 271 installed packages in /opt/ros/humble
+[0.233s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.267s] Level 5:colcon.colcon_core.verb:set package 'object_pkg' build argument 'cmake_args' from command line to 'None'
+[0.267s] Level 5:colcon.colcon_core.verb:set package 'object_pkg' build argument 'cmake_target' from command line to 'None'
+[0.268s] Level 5:colcon.colcon_core.verb:set package 'object_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.268s] Level 5:colcon.colcon_core.verb:set package 'object_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.268s] Level 5:colcon.colcon_core.verb:set package 'object_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.268s] Level 5:colcon.colcon_core.verb:set package 'object_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.268s] Level 5:colcon.colcon_core.verb:set package 'object_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.268s] Level 5:colcon.colcon_core.verb:set package 'object_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.268s] Level 5:colcon.colcon_core.verb:set package 'object_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.268s] DEBUG:colcon.colcon_core.verb:Building package 'object_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/quella/ROS2Demo/object/object_pkg/build/object_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/quella/ROS2Demo/object/object_pkg/install/object_pkg', 'merge_install': False, 'path': '/home/quella/ROS2Demo/object/object_pkg', 'symlink_install': False, 'test_result_base': None}
+[0.268s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.269s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.269s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/quella/ROS2Demo/object/object_pkg' with build type 'ament_cmake'
+[0.269s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/quella/ROS2Demo/object/object_pkg'
+[0.271s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.271s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.272s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.302s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/quella/ROS2Demo/object/object_pkg/build/object_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/quella/ROS2Demo/object/object_pkg -DCMAKE_INSTALL_PREFIX=/home/quella/ROS2Demo/object/object_pkg/install/object_pkg
+[1.435s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/quella/ROS2Demo/object/object_pkg/build/object_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/quella/ROS2Demo/object/object_pkg -DCMAKE_INSTALL_PREFIX=/home/quella/ROS2Demo/object/object_pkg/install/object_pkg
+[1.437s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/quella/ROS2Demo/object/object_pkg/build/object_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/quella/ROS2Demo/object/object_pkg/build/object_pkg -- -j16 -l16
+[3.933s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/quella/ROS2Demo/object/object_pkg/build/object_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/quella/ROS2Demo/object/object_pkg/build/object_pkg -- -j16 -l16
+[3.944s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/quella/ROS2Demo/object/object_pkg/build/object_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/quella/ROS2Demo/object/object_pkg/build/object_pkg
+[3.955s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(object_pkg)
+[3.956s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/quella/ROS2Demo/object/object_pkg/build/object_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/quella/ROS2Demo/object/object_pkg/build/object_pkg
+[4.007s] Level 1:colcon.colcon_core.environment:checking '/home/quella/ROS2Demo/object/object_pkg/install/object_pkg' for CMake module files
+[4.008s] Level 1:colcon.colcon_core.environment:checking '/home/quella/ROS2Demo/object/object_pkg/install/object_pkg' for CMake config files
+[4.008s] Level 1:colcon.colcon_core.shell:create_environment_hook('object_pkg', 'cmake_prefix_path')
+[4.008s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/quella/ROS2Demo/object/object_pkg/install/object_pkg/share/object_pkg/hook/cmake_prefix_path.ps1'
+[4.031s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/quella/ROS2Demo/object/object_pkg/install/object_pkg/share/object_pkg/hook/cmake_prefix_path.dsv'
+[4.032s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/quella/ROS2Demo/object/object_pkg/install/object_pkg/share/object_pkg/hook/cmake_prefix_path.sh'
+[4.034s] Level 1:colcon.colcon_core.environment:checking '/home/quella/ROS2Demo/object/object_pkg/install/object_pkg/lib'
+[4.034s] Level 1:colcon.colcon_core.environment:checking '/home/quella/ROS2Demo/object/object_pkg/install/object_pkg/bin'
+[4.034s] Level 1:colcon.colcon_core.environment:checking '/home/quella/ROS2Demo/object/object_pkg/install/object_pkg/lib/pkgconfig/object_pkg.pc'
+[4.034s] Level 1:colcon.colcon_core.environment:checking '/home/quella/ROS2Demo/object/object_pkg/install/object_pkg/lib/python3.10/site-packages'
+[4.034s] Level 1:colcon.colcon_core.environment:checking '/home/quella/ROS2Demo/object/object_pkg/install/object_pkg/bin'
+[4.035s] INFO:colcon.colcon_core.shell:Creating package script '/home/quella/ROS2Demo/object/object_pkg/install/object_pkg/share/object_pkg/package.ps1'
+[4.036s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/quella/ROS2Demo/object/object_pkg/install/object_pkg/share/object_pkg/package.dsv'
+[4.037s] INFO:colcon.colcon_core.shell:Creating package script '/home/quella/ROS2Demo/object/object_pkg/install/object_pkg/share/object_pkg/package.sh'
+[4.037s] INFO:colcon.colcon_core.shell:Creating package script '/home/quella/ROS2Demo/object/object_pkg/install/object_pkg/share/object_pkg/package.bash'
+[4.056s] INFO:colcon.colcon_core.shell:Creating package script '/home/quella/ROS2Demo/object/object_pkg/install/object_pkg/share/object_pkg/package.zsh'
+[4.060s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/quella/ROS2Demo/object/object_pkg/install/object_pkg/share/colcon-core/packages/object_pkg)
+[4.060s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(object_pkg)
+[4.061s] Level 1:colcon.colcon_core.environment:checking '/home/quella/ROS2Demo/object/object_pkg/install/object_pkg' for CMake module files
+[4.061s] Level 1:colcon.colcon_core.environment:checking '/home/quella/ROS2Demo/object/object_pkg/install/object_pkg' for CMake config files
+[4.061s] Level 1:colcon.colcon_core.shell:create_environment_hook('object_pkg', 'cmake_prefix_path')
+[4.061s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/quella/ROS2Demo/object/object_pkg/install/object_pkg/share/object_pkg/hook/cmake_prefix_path.ps1'
+[4.062s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/quella/ROS2Demo/object/object_pkg/install/object_pkg/share/object_pkg/hook/cmake_prefix_path.dsv'
+[4.062s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/quella/ROS2Demo/object/object_pkg/install/object_pkg/share/object_pkg/hook/cmake_prefix_path.sh'
+[4.063s] Level 1:colcon.colcon_core.environment:checking '/home/quella/ROS2Demo/object/object_pkg/install/object_pkg/lib'
+[4.063s] Level 1:colcon.colcon_core.environment:checking '/home/quella/ROS2Demo/object/object_pkg/install/object_pkg/bin'
+[4.063s] Level 1:colcon.colcon_core.environment:checking '/home/quella/ROS2Demo/object/object_pkg/install/object_pkg/lib/pkgconfig/object_pkg.pc'
+[4.063s] Level 1:colcon.colcon_core.environment:checking '/home/quella/ROS2Demo/object/object_pkg/install/object_pkg/lib/python3.10/site-packages'
+[4.063s] Level 1:colcon.colcon_core.environment:checking '/home/quella/ROS2Demo/object/object_pkg/install/object_pkg/bin'
+[4.063s] INFO:colcon.colcon_core.shell:Creating package script '/home/quella/ROS2Demo/object/object_pkg/install/object_pkg/share/object_pkg/package.ps1'
+[4.064s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/quella/ROS2Demo/object/object_pkg/install/object_pkg/share/object_pkg/package.dsv'
+[4.065s] INFO:colcon.colcon_core.shell:Creating package script '/home/quella/ROS2Demo/object/object_pkg/install/object_pkg/share/object_pkg/package.sh'
+[4.065s] INFO:colcon.colcon_core.shell:Creating package script '/home/quella/ROS2Demo/object/object_pkg/install/object_pkg/share/object_pkg/package.bash'
+[4.066s] INFO:colcon.colcon_core.shell:Creating package script '/home/quella/ROS2Demo/object/object_pkg/install/object_pkg/share/object_pkg/package.zsh'
+[4.066s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/quella/ROS2Demo/object/object_pkg/install/object_pkg/share/colcon-core/packages/object_pkg)
+[4.067s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[4.067s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[4.068s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[4.068s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[4.072s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[4.072s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[4.072s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[4.089s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[4.089s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/quella/ROS2Demo/object/object_pkg/install/local_setup.ps1'
+[4.090s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/quella/ROS2Demo/object/object_pkg/install/_local_setup_util_ps1.py'
+[4.091s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/quella/ROS2Demo/object/object_pkg/install/setup.ps1'
+[4.092s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/quella/ROS2Demo/object/object_pkg/install/local_setup.sh'
+[4.092s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/quella/ROS2Demo/object/object_pkg/install/_local_setup_util_sh.py'
+[4.093s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/quella/ROS2Demo/object/object_pkg/install/setup.sh'
+[4.094s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/quella/ROS2Demo/object/object_pkg/install/local_setup.bash'
+[4.094s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/quella/ROS2Demo/object/object_pkg/install/setup.bash'
+[4.095s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/quella/ROS2Demo/object/object_pkg/install/local_setup.zsh'
+[4.095s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/quella/ROS2Demo/object/object_pkg/install/setup.zsh'

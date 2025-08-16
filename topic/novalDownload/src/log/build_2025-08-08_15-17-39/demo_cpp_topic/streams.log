@@ -1,0 +1,45 @@
+[0.007s] Invoking command in '/home/quella/ROS2Demo/topic/novalDownload/src/build/demo_cpp_topic': /usr/bin/cmake /home/quella/ROS2Demo/topic/novalDownload/src/demo_cpp_topic -DCMAKE_INSTALL_PREFIX=/home/quella/ROS2Demo/topic/novalDownload/src/install/demo_cpp_topic
+[0.066s] -- The C compiler identification is GNU 11.4.0
+[0.120s] -- The CXX compiler identification is GNU 11.4.0
+[0.127s] -- Detecting C compiler ABI info
+[0.200s] -- Detecting C compiler ABI info - done
+[0.205s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.206s] -- Detecting C compile features
+[0.206s] -- Detecting C compile features - done
+[0.209s] -- Detecting CXX compiler ABI info
+[0.295s] -- Detecting CXX compiler ABI info - done
+[0.301s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.301s] -- Detecting CXX compile features
+[0.302s] -- Detecting CXX compile features - done
+[0.304s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.432s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.506s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.555s] Error parsing '/home/quella/ROS2Demo/topic/novalDownload/src/demo_cpp_topic/package.xml':
+[0.591s] Traceback (most recent call last):
+[0.591s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 150, in <module>
+[0.591s]     main()
+[0.591s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 53, in main
+[0.591s]     raise e
+[0.591s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 49, in main
+[0.591s]     package = parse_package_string(
+[0.591s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 788, in parse_package_string
+[0.591s]     pkg.validate(warnings=warnings)
+[0.591s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 330, in validate
+[0.591s]     raise InvalidPackage('\n'.join(errors), self.filename)
+[0.591s] catkin_pkg.package.InvalidPackage: Error(s) in package '/home/quella/ROS2Demo/topic/novalDownload/src/demo_cpp_topic/package.xml':
+[0.591s] Package name "demo_c++_topic" does not follow naming conventions
+[0.602s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):
+[0.602s]   execute_process(/usr/bin/python3
+[0.603s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[0.603s]   /home/quella/ROS2Demo/topic/novalDownload/src/demo_cpp_topic/package.xml
+[0.603s]   /home/quella/ROS2Demo/topic/novalDownload/src/build/demo_cpp_topic/ament_cmake_core/package.cmake)
+[0.603s]   returned error code 1
+[0.603s] Call Stack (most recent call first):
+[0.603s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[0.603s]   /opt/ros/humble/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)
+[0.603s]   CMakeLists.txt:23 (ament_lint_auto_find_test_dependencies)
+[0.603s] 
+[0.603s] [0m
+[0.603s] -- Configuring incomplete, errors occurred!
+[0.603s] See also "/home/quella/ROS2Demo/topic/novalDownload/src/build/demo_cpp_topic/CMakeFiles/CMakeOutput.log".
+[0.607s] Invoked command in '/home/quella/ROS2Demo/topic/novalDownload/src/build/demo_cpp_topic' returned '1': /usr/bin/cmake /home/quella/ROS2Demo/topic/novalDownload/src/demo_cpp_topic -DCMAKE_INSTALL_PREFIX=/home/quella/ROS2Demo/topic/novalDownload/src/install/demo_cpp_topic

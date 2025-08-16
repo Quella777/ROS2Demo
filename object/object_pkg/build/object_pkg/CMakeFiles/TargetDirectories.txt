@@ -1,0 +1,11 @@
+/home/quella/ROS2Demo/object/object_pkg/build/object_pkg/CMakeFiles/uninstall.dir
+/home/quella/ROS2Demo/object/object_pkg/build/object_pkg/CMakeFiles/object_pkg_uninstall.dir
+/home/quella/ROS2Demo/object/object_pkg/build/object_pkg/CMakeFiles/person_node.dir
+/home/quella/ROS2Demo/object/object_pkg/build/object_pkg/CMakeFiles/learn_thread.dir
+/home/quella/ROS2Demo/object/object_pkg/build/object_pkg/CMakeFiles/test.dir
+/home/quella/ROS2Demo/object/object_pkg/build/object_pkg/CMakeFiles/edit_cache.dir
+/home/quella/ROS2Demo/object/object_pkg/build/object_pkg/CMakeFiles/rebuild_cache.dir
+/home/quella/ROS2Demo/object/object_pkg/build/object_pkg/CMakeFiles/list_install_components.dir
+/home/quella/ROS2Demo/object/object_pkg/build/object_pkg/CMakeFiles/install.dir
+/home/quella/ROS2Demo/object/object_pkg/build/object_pkg/CMakeFiles/install/local.dir
+/home/quella/ROS2Demo/object/object_pkg/build/object_pkg/CMakeFiles/install/strip.dir

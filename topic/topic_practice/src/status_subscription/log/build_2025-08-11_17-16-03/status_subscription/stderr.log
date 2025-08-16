@@ -1,0 +1,7 @@
+[01m[K/home/quella/ROS2Demo/topic/topic_practice/src/status_subscription/src/status_sub.cpp:2:10:[m[K [01;31m[Kfatal error: [m[KQApplication: No such file or directory
+    2 | #include [01;31m[K<QApplication>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/status_sub.dir/build.make:76: CMakeFiles/status_sub.dir/src/status_sub.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/status_sub.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

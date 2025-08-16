@@ -1,0 +1,57 @@
+[0.000000] (-) TimerEvent: {}
+[0.000318] (demo_cpp_topic) JobQueued: {'identifier': 'demo_cpp_topic', 'dependencies': OrderedDict()}
+[0.003467] (demo_cpp_topic) JobStarted: {'identifier': 'demo_cpp_topic'}
+[0.009103] (demo_cpp_topic) JobProgress: {'identifier': 'demo_cpp_topic', 'progress': 'cmake'}
+[0.009912] (demo_cpp_topic) Command: {'cmd': ['/usr/bin/cmake', '/home/quella/ROS2Demo/topic/novalDownload/src/demo_cpp_topic', '-DCMAKE_INSTALL_PREFIX=/home/quella/ROS2Demo/topic/novalDownload/src/install/demo_cpp_topic'], 'cwd': '/home/quella/ROS2Demo/topic/novalDownload/src/build/demo_cpp_topic', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'quella'), ('SSH_CLIENT', '192.168.138.1 64269 22'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/quella/.vscode-server/cli/servers/Stable-488a1f239235055e34e673291fb8d8c810886f81/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/quella/.vscode-server/cli/servers/Stable-488a1f239235055e34e673291fb8d8c810886f81/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/quella'), ('OLDPWD', '/home/quella/ROS2Demo/topic/novalDownload'), ('TERM_PROGRAM_VERSION', '1.102.3'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-8a4f24af-3c0f-412c-9e1a-4fb3c1a49181.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/quella/.vscode-server/cli/servers/Stable-488a1f239235055e34e673291fb8d8c810886f81/server/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/quella/.vscode-server/cli/servers/Stable-488a1f239235055e34e673291fb8d8c810886f81/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/quella/ROS2Demo/object/object_pkg/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'quella'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '219'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/quella/.vscode-server/cli/servers/Stable-488a1f239235055e34e673291fb8d8c810886f81/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/quella/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand'), ('PAPERSIZE', 'a4'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'zh_CN.UTF-8'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-1a8cc49965.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/quella/ROS2Demo/object/object_pkg/install/object_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/quella/ROS2Demo/topic/novalDownload/src/build/demo_cpp_topic'), ('SSH_CONNECTION', '192.168.138.1 64269 192.168.138.135 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/quella/ROS2Demo/object/object_pkg/install/object_pkg')]), 'shell': False}
+[0.069837] (demo_cpp_topic) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.099818] (-) TimerEvent: {}
+[0.123137] (demo_cpp_topic) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.130178] (demo_cpp_topic) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.200752] (-) TimerEvent: {}
+[0.203453] (demo_cpp_topic) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.208717] (demo_cpp_topic) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.209583] (demo_cpp_topic) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.209940] (demo_cpp_topic) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.212214] (demo_cpp_topic) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.298731] (demo_cpp_topic) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.301020] (-) TimerEvent: {}
+[0.304722] (demo_cpp_topic) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.304925] (demo_cpp_topic) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.305204] (demo_cpp_topic) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.307129] (demo_cpp_topic) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.401425] (-) TimerEvent: {}
+[0.435722] (demo_cpp_topic) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.501767] (-) TimerEvent: {}
+[0.509783] (demo_cpp_topic) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.557766] (demo_cpp_topic) StderrLine: {'line': b"Error parsing '/home/quella/ROS2Demo/topic/novalDownload/src/demo_cpp_topic/package.xml':\n"}
+[0.593906] (demo_cpp_topic) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[0.594149] (demo_cpp_topic) StderrLine: {'line': b'  File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 150, in <module>\n'}
+[0.594197] (demo_cpp_topic) StderrLine: {'line': b'    main()\n'}
+[0.594236] (demo_cpp_topic) StderrLine: {'line': b'  File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 53, in main\n'}
+[0.594290] (demo_cpp_topic) StderrLine: {'line': b'    raise e\n'}
+[0.594347] (demo_cpp_topic) StderrLine: {'line': b'  File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 49, in main\n'}
+[0.594405] (demo_cpp_topic) StderrLine: {'line': b'    package = parse_package_string(\n'}
+[0.594443] (demo_cpp_topic) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 788, in parse_package_string\n'}
+[0.594486] (demo_cpp_topic) StderrLine: {'line': b'    pkg.validate(warnings=warnings)\n'}
+[0.594524] (demo_cpp_topic) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 330, in validate\n'}
+[0.594573] (demo_cpp_topic) StderrLine: {'line': b"    raise InvalidPackage('\\n'.join(errors), self.filename)\n"}
+[0.594620] (demo_cpp_topic) StderrLine: {'line': b"catkin_pkg.package.InvalidPackage: Error(s) in package '/home/quella/ROS2Demo/topic/novalDownload/src/demo_cpp_topic/package.xml':\n"}
+[0.594682] (demo_cpp_topic) StderrLine: {'line': b'Package name "demo_c++_topic" does not follow naming conventions\n'}
+[0.602030] (-) TimerEvent: {}
+[0.605734] (demo_cpp_topic) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):\n'}
+[0.605920] (demo_cpp_topic) StderrLine: {'line': b'  execute_process(/usr/bin/python3\n'}
+[0.605994] (demo_cpp_topic) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py\n'}
+[0.606037] (demo_cpp_topic) StderrLine: {'line': b'  /home/quella/ROS2Demo/topic/novalDownload/src/demo_cpp_topic/package.xml\n'}
+[0.606076] (demo_cpp_topic) StderrLine: {'line': b'  /home/quella/ROS2Demo/topic/novalDownload/src/build/demo_cpp_topic/ament_cmake_core/package.cmake)\n'}
+[0.606112] (demo_cpp_topic) StderrLine: {'line': b'  returned error code 1\n'}
+[0.606147] (demo_cpp_topic) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.606182] (demo_cpp_topic) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)\n'}
+[0.606217] (demo_cpp_topic) StderrLine: {'line': b'  /opt/ros/humble/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)\n'}
+[0.606253] (demo_cpp_topic) StderrLine: {'line': b'  CMakeLists.txt:23 (ament_lint_auto_find_test_dependencies)\n'}
+[0.606288] (demo_cpp_topic) StderrLine: {'line': b'\n'}
+[0.606325] (demo_cpp_topic) StderrLine: {'line': b'\x1b[0m\n'}
+[0.606360] (demo_cpp_topic) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.606404] (demo_cpp_topic) StdoutLine: {'line': b'See also "/home/quella/ROS2Demo/topic/novalDownload/src/build/demo_cpp_topic/CMakeFiles/CMakeOutput.log".\n'}
+[0.610193] (demo_cpp_topic) CommandEnded: {'returncode': 1}
+[0.610856] (demo_cpp_topic) JobEnded: {'identifier': 'demo_cpp_topic', 'rc': 1}
+[0.621377] (-) EventReactorShutdown: {}

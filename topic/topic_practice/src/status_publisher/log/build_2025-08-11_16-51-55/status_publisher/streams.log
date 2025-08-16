@@ -1,0 +1,69 @@
+[0.031s] Invoking command in '/home/quella/ROS2Demo/topic/topic_practice/src/status_publisher/build/status_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/quella/ROS2Demo/topic/topic_practice/src/status_publisher -DCMAKE_INSTALL_PREFIX=/home/quella/ROS2Demo/topic/topic_practice/src/status_publisher/install/status_publisher
+[0.090s] -- The C compiler identification is GNU 11.4.0
+[0.146s] -- The CXX compiler identification is GNU 11.4.0
+[0.154s] -- Detecting C compiler ABI info
+[0.231s] -- Detecting C compiler ABI info - done
+[0.236s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.236s] -- Detecting C compile features
+[0.237s] -- Detecting C compile features - done
+[0.239s] -- Detecting CXX compiler ABI info
+[0.327s] -- Detecting CXX compiler ABI info - done
+[0.333s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.333s] -- Detecting CXX compile features
+[0.333s] -- Detecting CXX compile features - done
+[0.335s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.468s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.549s] -- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)
+[0.593s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.596s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.602s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.612s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.626s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.680s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.683s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.792s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.816s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.850s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.863s] -- Looking for pthread.h
+[0.941s] -- Looking for pthread.h - found
+[0.942s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.024s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.026s] -- Found Threads: TRUE  
+[1.091s] -- Found status_interfaces: 0.0.0 (/home/quella/ROS2Demo/topic/topic_practice/src/status_interfaces/install/status_interfaces/share/status_interfaces/cmake)
+[1.102s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.171s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.171s] -- Configured cppcheck include dirs: 
+[1.171s] -- Configured cppcheck exclude dirs and/or files: 
+[1.173s] -- Added test 'lint_cmake' to check CMake code style
+[1.178s] -- Added test 'uncrustify' to check C / C++ code style
+[1.178s] -- Configured uncrustify additional arguments: 
+[1.179s] -- Added test 'xmllint' to check XML markup files
+[1.180s] -- Configuring done
+[1.216s] -- Generating done
+[1.221s] -- Build files have been written to: /home/quella/ROS2Demo/topic/topic_practice/src/status_publisher/build/status_publisher
+[1.229s] Invoked command in '/home/quella/ROS2Demo/topic/topic_practice/src/status_publisher/build/status_publisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/quella/ROS2Demo/topic/topic_practice/src/status_publisher -DCMAKE_INSTALL_PREFIX=/home/quella/ROS2Demo/topic/topic_practice/src/status_publisher/install/status_publisher
+[1.231s] Invoking command in '/home/quella/ROS2Demo/topic/topic_practice/src/status_publisher/build/status_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/quella/ROS2Demo/topic/topic_practice/src/status_publisher/build/status_publisher -- -j16 -l16
+[1.292s] [ 50%] [32mBuilding CXX object CMakeFiles/status_publish.dir/src/status_publisher.cpp.o[0m
+[4.958s] [100%] [32m[1mLinking CXX executable status_publish[0m
+[5.143s] [100%] Built target status_publish
+[5.156s] Invoked command in '/home/quella/ROS2Demo/topic/topic_practice/src/status_publisher/build/status_publisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/quella/ROS2Demo/topic/topic_practice/src/status_publisher/build/status_publisher -- -j16 -l16
+[5.168s] Invoking command in '/home/quella/ROS2Demo/topic/topic_practice/src/status_publisher/build/status_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/quella/ROS2Demo/topic/topic_practice/src/status_publisher/build/status_publisher
+[5.175s] -- Install configuration: ""
+[5.175s] -- Installing: /home/quella/ROS2Demo/topic/topic_practice/src/status_publisher/install/status_publisher/lib/status_publisher/status_publish
+[5.176s] -- Set runtime path of "/home/quella/ROS2Demo/topic/topic_practice/src/status_publisher/install/status_publisher/lib/status_publisher/status_publish" to ""
+[5.177s] -- Installing: /home/quella/ROS2Demo/topic/topic_practice/src/status_publisher/install/status_publisher/share/ament_index/resource_index/package_run_dependencies/status_publisher
+[5.199s] -- Installing: /home/quella/ROS2Demo/topic/topic_practice/src/status_publisher/install/status_publisher/share/ament_index/resource_index/parent_prefix_path/status_publisher
+[5.200s] -- Installing: /home/quella/ROS2Demo/topic/topic_practice/src/status_publisher/install/status_publisher/share/status_publisher/environment/ament_prefix_path.sh
+[5.200s] -- Installing: /home/quella/ROS2Demo/topic/topic_practice/src/status_publisher/install/status_publisher/share/status_publisher/environment/ament_prefix_path.dsv
+[5.200s] -- Installing: /home/quella/ROS2Demo/topic/topic_practice/src/status_publisher/install/status_publisher/share/status_publisher/environment/path.sh
+[5.200s] -- Installing: /home/quella/ROS2Demo/topic/topic_practice/src/status_publisher/install/status_publisher/share/status_publisher/environment/path.dsv
+[5.200s] -- Installing: /home/quella/ROS2Demo/topic/topic_practice/src/status_publisher/install/status_publisher/share/status_publisher/local_setup.bash
+[5.200s] -- Installing: /home/quella/ROS2Demo/topic/topic_practice/src/status_publisher/install/status_publisher/share/status_publisher/local_setup.sh
+[5.200s] -- Installing: /home/quella/ROS2Demo/topic/topic_practice/src/status_publisher/install/status_publisher/share/status_publisher/local_setup.zsh
+[5.201s] -- Installing: /home/quella/ROS2Demo/topic/topic_practice/src/status_publisher/install/status_publisher/share/status_publisher/local_setup.dsv
+[5.201s] -- Installing: /home/quella/ROS2Demo/topic/topic_practice/src/status_publisher/install/status_publisher/share/status_publisher/package.dsv
+[5.201s] -- Installing: /home/quella/ROS2Demo/topic/topic_practice/src/status_publisher/install/status_publisher/share/ament_index/resource_index/packages/status_publisher
+[5.201s] -- Installing: /home/quella/ROS2Demo/topic/topic_practice/src/status_publisher/install/status_publisher/share/status_publisher/cmake/status_publisherConfig.cmake
+[5.201s] -- Installing: /home/quella/ROS2Demo/topic/topic_practice/src/status_publisher/install/status_publisher/share/status_publisher/cmake/status_publisherConfig-version.cmake
+[5.201s] -- Installing: /home/quella/ROS2Demo/topic/topic_practice/src/status_publisher/install/status_publisher/share/status_publisher/package.xml
+[5.204s] Invoked command in '/home/quella/ROS2Demo/topic/topic_practice/src/status_publisher/build/status_publisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/quella/ROS2Demo/topic/topic_practice/src/status_publisher/build/status_publisher

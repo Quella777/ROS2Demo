@@ -1,0 +1,4 @@
+source;share/demp_cpp_topic/local_setup.bash
+source;share/demp_cpp_topic/local_setup.dsv
+source;share/demp_cpp_topic/local_setup.sh
+source;share/demp_cpp_topic/local_setup.zsh

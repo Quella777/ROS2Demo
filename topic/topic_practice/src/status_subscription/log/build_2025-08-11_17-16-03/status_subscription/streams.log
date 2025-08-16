@@ -1,0 +1,54 @@
+[0.020s] Invoking command in '/home/quella/ROS2Demo/topic/topic_practice/src/status_subscription/build/status_subscription': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/quella/ROS2Demo/topic/topic_practice/src/status_subscription -DCMAKE_INSTALL_PREFIX=/home/quella/ROS2Demo/topic/topic_practice/src/status_subscription/install/status_subscription
+[0.104s] -- The C compiler identification is GNU 11.4.0
+[0.160s] -- The CXX compiler identification is GNU 11.4.0
+[0.167s] -- Detecting C compiler ABI info
+[0.246s] -- Detecting C compiler ABI info - done
+[0.252s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.252s] -- Detecting C compile features
+[0.252s] -- Detecting C compile features - done
+[0.255s] -- Detecting CXX compiler ABI info
+[0.340s] -- Detecting CXX compiler ABI info - done
+[0.346s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.346s] -- Detecting CXX compile features
+[0.347s] -- Detecting CXX compile features - done
+[0.349s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.483s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.581s] -- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)
+[0.623s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.628s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.634s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.644s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.658s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.700s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.703s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.795s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.815s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.850s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.858s] -- Looking for pthread.h
+[0.936s] -- Looking for pthread.h - found
+[0.937s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.019s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.020s] -- Found Threads: TRUE  
+[1.065s] -- Found status_interfaces: 0.0.0 (/home/quella/ROS2Demo/topic/topic_practice/src/status_interfaces/install/status_interfaces/share/status_interfaces/cmake)
+[1.076s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.147s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.147s] -- Configured cppcheck include dirs: 
+[1.147s] -- Configured cppcheck exclude dirs and/or files: 
+[1.149s] -- Added test 'lint_cmake' to check CMake code style
+[1.156s] -- Added test 'uncrustify' to check C / C++ code style
+[1.156s] -- Configured uncrustify additional arguments: 
+[1.156s] -- Added test 'xmllint' to check XML markup files
+[1.157s] -- Configuring done
+[1.166s] -- Generating done
+[1.170s] -- Build files have been written to: /home/quella/ROS2Demo/topic/topic_practice/src/status_subscription/build/status_subscription
+[1.181s] Invoked command in '/home/quella/ROS2Demo/topic/topic_practice/src/status_subscription/build/status_subscription' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/quella/ROS2Demo/topic/topic_practice/src/status_subscription -DCMAKE_INSTALL_PREFIX=/home/quella/ROS2Demo/topic/topic_practice/src/status_subscription/install/status_subscription
+[1.186s] Invoking command in '/home/quella/ROS2Demo/topic/topic_practice/src/status_subscription/build/status_subscription': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/quella/ROS2Demo/topic/topic_practice/src/status_subscription/build/status_subscription -- -j16 -l16
+[1.259s] [ 50%] [32mBuilding CXX object CMakeFiles/status_sub.dir/src/status_sub.cpp.o[0m
+[1.491s] [01m[K/home/quella/ROS2Demo/topic/topic_practice/src/status_subscription/src/status_sub.cpp:2:10:[m[K [01;31m[Kfatal error: [m[KQApplication: No such file or directory
+[1.491s]     2 | #include [01;31m[K<QApplication>[m[K
+[1.491s]       |          [01;31m[K^~~~~~~~~~~~~~[m[K
+[1.491s] compilation terminated.
+[1.493s] gmake[2]: *** [CMakeFiles/status_sub.dir/build.make:76: CMakeFiles/status_sub.dir/src/status_sub.cpp.o] Error 1
+[1.494s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/status_sub.dir/all] Error 2
+[1.494s] gmake: *** [Makefile:146: all] Error 2
+[1.497s] Invoked command in '/home/quella/ROS2Demo/topic/topic_practice/src/status_subscription/build/status_subscription' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/quella/ROS2Demo/topic/topic_practice/src/status_subscription/build/status_subscription -- -j16 -l16

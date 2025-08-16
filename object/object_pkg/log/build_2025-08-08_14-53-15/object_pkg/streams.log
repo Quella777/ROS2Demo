@@ -1,0 +1,36 @@
+[0.014s] Invoking command in '/home/quella/ROS2Demo/object/object_pkg/build/object_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/quella/ROS2Demo/object/object_pkg/build/object_pkg -- -j16 -l16
+[0.058s] [35m[1mConsolidate compiler generated dependencies of target person_node[0m
+[0.058s] [35m[1mConsolidate compiler generated dependencies of target learn_thread[0m
+[0.078s] [ 50%] Built target person_node
+[0.078s] [ 75%] [32mBuilding CXX object CMakeFiles/learn_thread.dir/src/learn_thread.cpp.o[0m
+[2.568s] [01m[K/home/quella/ROS2Demo/object/object_pkg/src/learn_thread.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[2.568s] [01m[K/home/quella/ROS2Demo/object/object_pkg/src/learn_thread.cpp:36:14:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargc[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.568s]    36 | int main([01;35m[Kint argc[m[K, char **argv)
+[2.568s]       |          [01;35m[K~~~~^~~~[m[K
+[2.568s] [01m[K/home/quella/ROS2Demo/object/object_pkg/src/learn_thread.cpp:36:27:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargv[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.568s]    36 | int main(int argc, [01;35m[Kchar **argv[m[K)
+[2.568s]       |                    [01;35m[K~~~~~~~^~~~[m[K
+[6.349s] [100%] [32m[1mLinking CXX executable learn_thread[0m
+[6.545s] [100%] Built target learn_thread
+[6.557s] Invoked command in '/home/quella/ROS2Demo/object/object_pkg/build/object_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/quella/ROS2Demo/object/object_pkg/build/object_pkg -- -j16 -l16
+[6.569s] Invoking command in '/home/quella/ROS2Demo/object/object_pkg/build/object_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/quella/ROS2Demo/object/object_pkg/build/object_pkg
+[6.576s] -- Install configuration: ""
+[6.576s] -- Up-to-date: /home/quella/ROS2Demo/object/object_pkg/install/object_pkg/lib/object_pkg/person_node
+[6.576s] -- Installing: /home/quella/ROS2Demo/object/object_pkg/install/object_pkg/lib/object_pkg/learn_thread
+[6.579s] -- Set runtime path of "/home/quella/ROS2Demo/object/object_pkg/install/object_pkg/lib/object_pkg/learn_thread" to ""
+[6.579s] -- Up-to-date: /home/quella/ROS2Demo/object/object_pkg/install/object_pkg/share/ament_index/resource_index/package_run_dependencies/object_pkg
+[6.579s] -- Up-to-date: /home/quella/ROS2Demo/object/object_pkg/install/object_pkg/share/ament_index/resource_index/parent_prefix_path/object_pkg
+[6.579s] -- Up-to-date: /home/quella/ROS2Demo/object/object_pkg/install/object_pkg/share/object_pkg/environment/ament_prefix_path.sh
+[6.579s] -- Up-to-date: /home/quella/ROS2Demo/object/object_pkg/install/object_pkg/share/object_pkg/environment/ament_prefix_path.dsv
+[6.579s] -- Up-to-date: /home/quella/ROS2Demo/object/object_pkg/install/object_pkg/share/object_pkg/environment/path.sh
+[6.579s] -- Up-to-date: /home/quella/ROS2Demo/object/object_pkg/install/object_pkg/share/object_pkg/environment/path.dsv
+[6.579s] -- Up-to-date: /home/quella/ROS2Demo/object/object_pkg/install/object_pkg/share/object_pkg/local_setup.bash
+[6.579s] -- Up-to-date: /home/quella/ROS2Demo/object/object_pkg/install/object_pkg/share/object_pkg/local_setup.sh
+[6.579s] -- Up-to-date: /home/quella/ROS2Demo/object/object_pkg/install/object_pkg/share/object_pkg/local_setup.zsh
+[6.579s] -- Up-to-date: /home/quella/ROS2Demo/object/object_pkg/install/object_pkg/share/object_pkg/local_setup.dsv
+[6.579s] -- Installing: /home/quella/ROS2Demo/object/object_pkg/install/object_pkg/share/object_pkg/package.dsv
+[6.580s] -- Up-to-date: /home/quella/ROS2Demo/object/object_pkg/install/object_pkg/share/ament_index/resource_index/packages/object_pkg
+[6.580s] -- Up-to-date: /home/quella/ROS2Demo/object/object_pkg/install/object_pkg/share/object_pkg/cmake/object_pkgConfig.cmake
+[6.580s] -- Up-to-date: /home/quella/ROS2Demo/object/object_pkg/install/object_pkg/share/object_pkg/cmake/object_pkgConfig-version.cmake
+[6.580s] -- Up-to-date: /home/quella/ROS2Demo/object/object_pkg/install/object_pkg/share/object_pkg/package.xml
+[6.582s] Invoked command in '/home/quella/ROS2Demo/object/object_pkg/build/object_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/quella/ROS2Demo/object/object_pkg/build/object_pkg

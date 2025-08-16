@@ -1,0 +1,109 @@
+[0.000000] (-) TimerEvent: {}
+[0.000245] (object_pkg) JobQueued: {'identifier': 'object_pkg', 'dependencies': OrderedDict()}
+[0.000629] (object_pkg) JobStarted: {'identifier': 'object_pkg'}
+[0.010247] (object_pkg) JobProgress: {'identifier': 'object_pkg', 'progress': 'cmake'}
+[0.010992] (object_pkg) JobProgress: {'identifier': 'object_pkg', 'progress': 'build'}
+[0.011599] (object_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/quella/ROS2Demo/object/object_pkg/build/object_pkg', '--', '-j16', '-l16'], 'cwd': '/home/quella/ROS2Demo/object/object_pkg/build/object_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'quella'), ('SSH_CLIENT', '192.168.138.1 64269 22'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/quella/.vscode-server/cli/servers/Stable-488a1f239235055e34e673291fb8d8c810886f81/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/quella/.vscode-server/cli/servers/Stable-488a1f239235055e34e673291fb8d8c810886f81/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/quella'), ('OLDPWD', '/home/quella/ROS2Demo/object/object_pkg/build'), ('TERM_PROGRAM_VERSION', '1.102.3'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-8a4f24af-3c0f-412c-9e1a-4fb3c1a49181.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/quella/.vscode-server/cli/servers/Stable-488a1f239235055e34e673291fb8d8c810886f81/server/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/quella/.vscode-server/cli/servers/Stable-488a1f239235055e34e673291fb8d8c810886f81/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/quella/ROS2Demo/object/object_pkg/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'quella'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '219'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/quella/.vscode-server/cli/servers/Stable-488a1f239235055e34e673291fb8d8c810886f81/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/quella/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand'), ('PAPERSIZE', 'a4'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'zh_CN.UTF-8'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-1a8cc49965.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/quella/ROS2Demo/object/object_pkg/install/object_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/quella/ROS2Demo/object/object_pkg/build/object_pkg'), ('SSH_CONNECTION', '192.168.138.1 64269 192.168.138.135 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/quella/ROS2Demo/object/object_pkg/install/object_pkg:/opt/ros/humble')]), 'shell': False}
+[0.058396] (object_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target person_node\x1b[0m\n'}
+[0.058563] (object_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target learn_thread\x1b[0m\n'}
+[0.078266] (object_pkg) StdoutLine: {'line': b'[ 50%] Built target person_node\n'}
+[0.078576] (object_pkg) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/learn_thread.dir/src/learn_thread.cpp.o\x1b[0m\n'}
+[0.100062] (-) TimerEvent: {}
+[0.201219] (-) TimerEvent: {}
+[0.301883] (-) TimerEvent: {}
+[0.402898] (-) TimerEvent: {}
+[0.504098] (-) TimerEvent: {}
+[0.604900] (-) TimerEvent: {}
+[0.705906] (-) TimerEvent: {}
+[0.806805] (-) TimerEvent: {}
+[0.907868] (-) TimerEvent: {}
+[1.008804] (-) TimerEvent: {}
+[1.109791] (-) TimerEvent: {}
+[1.210776] (-) TimerEvent: {}
+[1.311479] (-) TimerEvent: {}
+[1.411784] (-) TimerEvent: {}
+[1.512445] (-) TimerEvent: {}
+[1.612945] (-) TimerEvent: {}
+[1.713794] (-) TimerEvent: {}
+[1.814968] (-) TimerEvent: {}
+[1.916021] (-) TimerEvent: {}
+[2.016987] (-) TimerEvent: {}
+[2.117990] (-) TimerEvent: {}
+[2.219162] (-) TimerEvent: {}
+[2.320299] (-) TimerEvent: {}
+[2.421228] (-) TimerEvent: {}
+[2.521797] (-) TimerEvent: {}
+[2.568113] (object_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/quella/ROS2Demo/object/object_pkg/src/learn_thread.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.568347] (object_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/quella/ROS2Demo/object/object_pkg/src/learn_thread.cpp:36:14:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kargc\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.568403] (object_pkg) StderrLine: {'line': b'   36 | int main(\x1b[01;35m\x1b[Kint argc\x1b[m\x1b[K, char **argv)\n'}
+[2.568458] (object_pkg) StderrLine: {'line': b'      |          \x1b[01;35m\x1b[K~~~~^~~~\x1b[m\x1b[K\n'}
+[2.568511] (object_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/quella/ROS2Demo/object/object_pkg/src/learn_thread.cpp:36:27:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kargv\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.568551] (object_pkg) StderrLine: {'line': b'   36 | int main(int argc, \x1b[01;35m\x1b[Kchar **argv\x1b[m\x1b[K)\n'}
+[2.568624] (object_pkg) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[2.622783] (-) TimerEvent: {}
+[2.723836] (-) TimerEvent: {}
+[2.824297] (-) TimerEvent: {}
+[2.924821] (-) TimerEvent: {}
+[3.025921] (-) TimerEvent: {}
+[3.126416] (-) TimerEvent: {}
+[3.226799] (-) TimerEvent: {}
+[3.327786] (-) TimerEvent: {}
+[3.428442] (-) TimerEvent: {}
+[3.528824] (-) TimerEvent: {}
+[3.629290] (-) TimerEvent: {}
+[3.729782] (-) TimerEvent: {}
+[3.830158] (-) TimerEvent: {}
+[3.931140] (-) TimerEvent: {}
+[4.031608] (-) TimerEvent: {}
+[4.132388] (-) TimerEvent: {}
+[4.233028] (-) TimerEvent: {}
+[4.333945] (-) TimerEvent: {}
+[4.434885] (-) TimerEvent: {}
+[4.535782] (-) TimerEvent: {}
+[4.636814] (-) TimerEvent: {}
+[4.737780] (-) TimerEvent: {}
+[4.838809] (-) TimerEvent: {}
+[4.939308] (-) TimerEvent: {}
+[5.039818] (-) TimerEvent: {}
+[5.140571] (-) TimerEvent: {}
+[5.241840] (-) TimerEvent: {}
+[5.343082] (-) TimerEvent: {}
+[5.443825] (-) TimerEvent: {}
+[5.544475] (-) TimerEvent: {}
+[5.645144] (-) TimerEvent: {}
+[5.745782] (-) TimerEvent: {}
+[5.846334] (-) TimerEvent: {}
+[5.946854] (-) TimerEvent: {}
+[6.047609] (-) TimerEvent: {}
+[6.148035] (-) TimerEvent: {}
+[6.248864] (-) TimerEvent: {}
+[6.349395] (object_pkg) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable learn_thread\x1b[0m\n'}
+[6.349560] (-) TimerEvent: {}
+[6.449885] (-) TimerEvent: {}
+[6.545556] (object_pkg) StdoutLine: {'line': b'[100%] Built target learn_thread\n'}
+[6.550022] (-) TimerEvent: {}
+[6.557043] (object_pkg) CommandEnded: {'returncode': 0}
+[6.559139] (object_pkg) JobProgress: {'identifier': 'object_pkg', 'progress': 'install'}
+[6.568587] (object_pkg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/quella/ROS2Demo/object/object_pkg/build/object_pkg'], 'cwd': '/home/quella/ROS2Demo/object/object_pkg/build/object_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'quella'), ('SSH_CLIENT', '192.168.138.1 64269 22'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/quella/.vscode-server/cli/servers/Stable-488a1f239235055e34e673291fb8d8c810886f81/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/quella/.vscode-server/cli/servers/Stable-488a1f239235055e34e673291fb8d8c810886f81/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/quella'), ('OLDPWD', '/home/quella/ROS2Demo/object/object_pkg/build'), ('TERM_PROGRAM_VERSION', '1.102.3'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-8a4f24af-3c0f-412c-9e1a-4fb3c1a49181.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/quella/.vscode-server/cli/servers/Stable-488a1f239235055e34e673291fb8d8c810886f81/server/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/quella/.vscode-server/cli/servers/Stable-488a1f239235055e34e673291fb8d8c810886f81/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/quella/ROS2Demo/object/object_pkg/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'quella'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '219'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/quella/.vscode-server/cli/servers/Stable-488a1f239235055e34e673291fb8d8c810886f81/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/quella/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand'), ('PAPERSIZE', 'a4'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'zh_CN.UTF-8'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-1a8cc49965.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/quella/ROS2Demo/object/object_pkg/install/object_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/quella/ROS2Demo/object/object_pkg/build/object_pkg'), ('SSH_CONNECTION', '192.168.138.1 64269 192.168.138.135 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/quella/ROS2Demo/object/object_pkg/install/object_pkg:/opt/ros/humble')]), 'shell': False}
+[6.576360] (object_pkg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[6.576772] (object_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/quella/ROS2Demo/object/object_pkg/install/object_pkg/lib/object_pkg/person_node\n'}
+[6.576970] (object_pkg) StdoutLine: {'line': b'-- Installing: /home/quella/ROS2Demo/object/object_pkg/install/object_pkg/lib/object_pkg/learn_thread\n'}
+[6.579208] (object_pkg) StdoutLine: {'line': b'-- Set runtime path of "/home/quella/ROS2Demo/object/object_pkg/install/object_pkg/lib/object_pkg/learn_thread" to ""\n'}
+[6.579323] (object_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/quella/ROS2Demo/object/object_pkg/install/object_pkg/share/ament_index/resource_index/package_run_dependencies/object_pkg\n'}
+[6.579447] (object_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/quella/ROS2Demo/object/object_pkg/install/object_pkg/share/ament_index/resource_index/parent_prefix_path/object_pkg\n'}
+[6.579496] (object_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/quella/ROS2Demo/object/object_pkg/install/object_pkg/share/object_pkg/environment/ament_prefix_path.sh\n'}
+[6.579539] (object_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/quella/ROS2Demo/object/object_pkg/install/object_pkg/share/object_pkg/environment/ament_prefix_path.dsv\n'}
+[6.579613] (object_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/quella/ROS2Demo/object/object_pkg/install/object_pkg/share/object_pkg/environment/path.sh\n'}
+[6.579655] (object_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/quella/ROS2Demo/object/object_pkg/install/object_pkg/share/object_pkg/environment/path.dsv\n'}
+[6.579693] (object_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/quella/ROS2Demo/object/object_pkg/install/object_pkg/share/object_pkg/local_setup.bash\n'}
+[6.579881] (object_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/quella/ROS2Demo/object/object_pkg/install/object_pkg/share/object_pkg/local_setup.sh\n'}
+[6.580028] (object_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/quella/ROS2Demo/object/object_pkg/install/object_pkg/share/object_pkg/local_setup.zsh\n'}
+[6.580088] (object_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/quella/ROS2Demo/object/object_pkg/install/object_pkg/share/object_pkg/local_setup.dsv\n'}
+[6.580136] (object_pkg) StdoutLine: {'line': b'-- Installing: /home/quella/ROS2Demo/object/object_pkg/install/object_pkg/share/object_pkg/package.dsv\n'}
+[6.580175] (object_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/quella/ROS2Demo/object/object_pkg/install/object_pkg/share/ament_index/resource_index/packages/object_pkg\n'}
+[6.580213] (object_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/quella/ROS2Demo/object/object_pkg/install/object_pkg/share/object_pkg/cmake/object_pkgConfig.cmake\n'}
+[6.580254] (object_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/quella/ROS2Demo/object/object_pkg/install/object_pkg/share/object_pkg/cmake/object_pkgConfig-version.cmake\n'}
+[6.580293] (object_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/quella/ROS2Demo/object/object_pkg/install/object_pkg/share/object_pkg/package.xml\n'}
+[6.582021] (object_pkg) CommandEnded: {'returncode': 0}
+[6.597955] (object_pkg) JobEnded: {'identifier': 'object_pkg', 'rc': 0}
+[6.599054] (-) EventReactorShutdown: {}

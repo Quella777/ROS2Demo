@@ -1,0 +1,6 @@
+Invoking command in '/home/quella/ROS2Demo/object/object_pkg/build/object_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/quella/ROS2Demo/object/object_pkg -DCMAKE_INSTALL_PREFIX=/home/quella/ROS2Demo/object/object_pkg/install/object_pkg
+Invoked command in '/home/quella/ROS2Demo/object/object_pkg/build/object_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/quella/ROS2Demo/object/object_pkg -DCMAKE_INSTALL_PREFIX=/home/quella/ROS2Demo/object/object_pkg/install/object_pkg
+Invoking command in '/home/quella/ROS2Demo/object/object_pkg/build/object_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/quella/ROS2Demo/object/object_pkg/build/object_pkg -- -j16 -l16
+Invoked command in '/home/quella/ROS2Demo/object/object_pkg/build/object_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/quella/ROS2Demo/object/object_pkg/build/object_pkg -- -j16 -l16
+Invoking command in '/home/quella/ROS2Demo/object/object_pkg/build/object_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/quella/ROS2Demo/object/object_pkg/build/object_pkg
+Invoked command in '/home/quella/ROS2Demo/object/object_pkg/build/object_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/quella/ROS2Demo/object/object_pkg/build/object_pkg

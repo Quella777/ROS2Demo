@@ -1,0 +1,2 @@
+Invoking command in '/home/quella/ROS2Demo/topic/novalDownload/src/build/demo_cpp_topic': /usr/bin/cmake /home/quella/ROS2Demo/topic/novalDownload/src/demo_cpp_topic -DCMAKE_INSTALL_PREFIX=/home/quella/ROS2Demo/topic/novalDownload/src/install/demo_cpp_topic
+Invoked command in '/home/quella/ROS2Demo/topic/novalDownload/src/build/demo_cpp_topic' returned '1': /usr/bin/cmake /home/quella/ROS2Demo/topic/novalDownload/src/demo_cpp_topic -DCMAKE_INSTALL_PREFIX=/home/quella/ROS2Demo/topic/novalDownload/src/install/demo_cpp_topic

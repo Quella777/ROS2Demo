@@ -1,0 +1,22 @@
+[35m[1mConsolidate compiler generated dependencies of target turtle_contrl[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/turtle_contrl.dir/src/turtle_contrl.cpp.o[0m
+[100%] [32m[1mLinking CXX executable turtle_contrl[0m
+[100%] Built target turtle_contrl
+-- Install configuration: ""
+-- Installing: /home/quella/ROS2Demo/topic/Sport/pose_cpp_pkg/src/pose_cpp_topic/install/pose_cpp_topic/lib/pose_cpp_topic/turtle_contrl
+-- Set runtime path of "/home/quella/ROS2Demo/topic/Sport/pose_cpp_pkg/src/pose_cpp_topic/install/pose_cpp_topic/lib/pose_cpp_topic/turtle_contrl" to ""
+-- Up-to-date: /home/quella/ROS2Demo/topic/Sport/pose_cpp_pkg/src/pose_cpp_topic/install/pose_cpp_topic/share/ament_index/resource_index/package_run_dependencies/pose_cpp_topic
+-- Up-to-date: /home/quella/ROS2Demo/topic/Sport/pose_cpp_pkg/src/pose_cpp_topic/install/pose_cpp_topic/share/ament_index/resource_index/parent_prefix_path/pose_cpp_topic
+-- Up-to-date: /home/quella/ROS2Demo/topic/Sport/pose_cpp_pkg/src/pose_cpp_topic/install/pose_cpp_topic/share/pose_cpp_topic/environment/ament_prefix_path.sh
+-- Up-to-date: /home/quella/ROS2Demo/topic/Sport/pose_cpp_pkg/src/pose_cpp_topic/install/pose_cpp_topic/share/pose_cpp_topic/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/quella/ROS2Demo/topic/Sport/pose_cpp_pkg/src/pose_cpp_topic/install/pose_cpp_topic/share/pose_cpp_topic/environment/path.sh
+-- Up-to-date: /home/quella/ROS2Demo/topic/Sport/pose_cpp_pkg/src/pose_cpp_topic/install/pose_cpp_topic/share/pose_cpp_topic/environment/path.dsv
+-- Up-to-date: /home/quella/ROS2Demo/topic/Sport/pose_cpp_pkg/src/pose_cpp_topic/install/pose_cpp_topic/share/pose_cpp_topic/local_setup.bash
+-- Up-to-date: /home/quella/ROS2Demo/topic/Sport/pose_cpp_pkg/src/pose_cpp_topic/install/pose_cpp_topic/share/pose_cpp_topic/local_setup.sh
+-- Up-to-date: /home/quella/ROS2Demo/topic/Sport/pose_cpp_pkg/src/pose_cpp_topic/install/pose_cpp_topic/share/pose_cpp_topic/local_setup.zsh
+-- Up-to-date: /home/quella/ROS2Demo/topic/Sport/pose_cpp_pkg/src/pose_cpp_topic/install/pose_cpp_topic/share/pose_cpp_topic/local_setup.dsv
+-- Installing: /home/quella/ROS2Demo/topic/Sport/pose_cpp_pkg/src/pose_cpp_topic/install/pose_cpp_topic/share/pose_cpp_topic/package.dsv
+-- Up-to-date: /home/quella/ROS2Demo/topic/Sport/pose_cpp_pkg/src/pose_cpp_topic/install/pose_cpp_topic/share/ament_index/resource_index/packages/pose_cpp_topic
+-- Up-to-date: /home/quella/ROS2Demo/topic/Sport/pose_cpp_pkg/src/pose_cpp_topic/install/pose_cpp_topic/share/pose_cpp_topic/cmake/pose_cpp_topicConfig.cmake
+-- Up-to-date: /home/quella/ROS2Demo/topic/Sport/pose_cpp_pkg/src/pose_cpp_topic/install/pose_cpp_topic/share/pose_cpp_topic/cmake/pose_cpp_topicConfig-version.cmake
+-- Up-to-date: /home/quella/ROS2Demo/topic/Sport/pose_cpp_pkg/src/pose_cpp_topic/install/pose_cpp_topic/share/pose_cpp_topic/package.xml

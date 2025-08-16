@@ -1,0 +1,33 @@
+[0.017s] Invoking command in '/home/quella/ROS2Demo/topic/topic_practice/src/status_subscription/build/status_subscription': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/quella/ROS2Demo/topic/topic_practice/src/status_subscription/build/status_subscription -- -j16 -l16
+[0.096s] [35m[1mConsolidate compiler generated dependencies of target status_sub[0m
+[0.118s] [ 50%] [32mBuilding CXX object CMakeFiles/status_sub.dir/src/status_sub.cpp.o[0m
+[2.933s] [01m[K/home/quella/ROS2Demo/topic/topic_practice/src/status_subscription/src/status_sub.cpp:[m[K In member function ‘[01m[KQString StatusSub::Get_Status(status_interfaces::msg::SystemStatus_<std::allocator<void> >::SharedPtr)[m[K’:
+[2.934s] [01m[K/home/quella/ROS2Demo/topic/topic_practice/src/status_subscription/src/status_sub.cpp:27:5:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+[2.934s]    27 |     [01;35m[K}[m[K
+[2.934s]       |     [01;35m[K^[m[K
+[2.934s] [01m[K/home/quella/ROS2Demo/topic/topic_practice/src/status_subscription/src/status_sub.cpp:25:78:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.934s]    25 |     QString Get_Status([01;35m[Kconst status_interfaces::msg::SystemStatus::SharedPtr msg[m[K)
+[2.934s]       |                        [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[8.984s] [100%] [32m[1mLinking CXX executable status_sub[0m
+[9.891s] [100%] Built target status_sub
+[9.905s] Invoked command in '/home/quella/ROS2Demo/topic/topic_practice/src/status_subscription/build/status_subscription' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/quella/ROS2Demo/topic/topic_practice/src/status_subscription/build/status_subscription -- -j16 -l16
+[9.926s] Invoking command in '/home/quella/ROS2Demo/topic/topic_practice/src/status_subscription/build/status_subscription': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/quella/ROS2Demo/topic/topic_practice/src/status_subscription/build/status_subscription
+[9.936s] -- Install configuration: ""
+[9.937s] -- Installing: /home/quella/ROS2Demo/topic/topic_practice/src/status_subscription/install/status_subscription/lib/status_subscription/status_sub
+[9.946s] -- Set runtime path of "/home/quella/ROS2Demo/topic/topic_practice/src/status_subscription/install/status_subscription/lib/status_subscription/status_sub" to ""
+[9.946s] -- Up-to-date: /home/quella/ROS2Demo/topic/topic_practice/src/status_subscription/install/status_subscription/share/ament_index/resource_index/package_run_dependencies/status_subscription
+[9.946s] -- Up-to-date: /home/quella/ROS2Demo/topic/topic_practice/src/status_subscription/install/status_subscription/share/ament_index/resource_index/parent_prefix_path/status_subscription
+[9.946s] -- Up-to-date: /home/quella/ROS2Demo/topic/topic_practice/src/status_subscription/install/status_subscription/share/status_subscription/environment/ament_prefix_path.sh
+[9.946s] -- Up-to-date: /home/quella/ROS2Demo/topic/topic_practice/src/status_subscription/install/status_subscription/share/status_subscription/environment/ament_prefix_path.dsv
+[9.947s] -- Up-to-date: /home/quella/ROS2Demo/topic/topic_practice/src/status_subscription/install/status_subscription/share/status_subscription/environment/path.sh
+[9.947s] -- Up-to-date: /home/quella/ROS2Demo/topic/topic_practice/src/status_subscription/install/status_subscription/share/status_subscription/environment/path.dsv
+[9.947s] -- Up-to-date: /home/quella/ROS2Demo/topic/topic_practice/src/status_subscription/install/status_subscription/share/status_subscription/local_setup.bash
+[9.947s] -- Up-to-date: /home/quella/ROS2Demo/topic/topic_practice/src/status_subscription/install/status_subscription/share/status_subscription/local_setup.sh
+[9.947s] -- Up-to-date: /home/quella/ROS2Demo/topic/topic_practice/src/status_subscription/install/status_subscription/share/status_subscription/local_setup.zsh
+[9.947s] -- Up-to-date: /home/quella/ROS2Demo/topic/topic_practice/src/status_subscription/install/status_subscription/share/status_subscription/local_setup.dsv
+[9.947s] -- Installing: /home/quella/ROS2Demo/topic/topic_practice/src/status_subscription/install/status_subscription/share/status_subscription/package.dsv
+[9.947s] -- Up-to-date: /home/quella/ROS2Demo/topic/topic_practice/src/status_subscription/install/status_subscription/share/ament_index/resource_index/packages/status_subscription
+[9.947s] -- Up-to-date: /home/quella/ROS2Demo/topic/topic_practice/src/status_subscription/install/status_subscription/share/status_subscription/cmake/status_subscriptionConfig.cmake
+[9.947s] -- Up-to-date: /home/quella/ROS2Demo/topic/topic_practice/src/status_subscription/install/status_subscription/share/status_subscription/cmake/status_subscriptionConfig-version.cmake
+[9.947s] -- Up-to-date: /home/quella/ROS2Demo/topic/topic_practice/src/status_subscription/install/status_subscription/share/status_subscription/package.xml
+[9.950s] Invoked command in '/home/quella/ROS2Demo/topic/topic_practice/src/status_subscription/build/status_subscription' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/quella/ROS2Demo/topic/topic_practice/src/status_subscription/build/status_subscription

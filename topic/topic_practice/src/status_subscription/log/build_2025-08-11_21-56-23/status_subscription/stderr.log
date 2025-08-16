@@ -1,0 +1,7 @@
+[01m[K/home/quella/ROS2Demo/topic/topic_practice/src/status_subscription/src/status_sub.cpp:[m[K In member function ‘[01m[KQString StatusSub::Get_Status(status_interfaces::msg::SystemStatus_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/quella/ROS2Demo/topic/topic_practice/src/status_subscription/src/status_sub.cpp:27:5:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+   27 |     [01;35m[K}[m[K
+      |     [01;35m[K^[m[K
+[01m[K/home/quella/ROS2Demo/topic/topic_practice/src/status_subscription/src/status_sub.cpp:25:78:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   25 |     QString Get_Status([01;35m[Kconst status_interfaces::msg::SystemStatus::SharedPtr msg[m[K)
+      |                        [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
